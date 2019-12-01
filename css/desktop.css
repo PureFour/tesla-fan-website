@@ -41,7 +41,7 @@ body {
 
 .menubar {
   width: 200px;
-  background-color: rgb(190, 207, 223);
+  background-color: #5680e9;
   float: left;
   border-radius: 8px;
   overflow: hidden;
@@ -63,7 +63,7 @@ body {
 }
 
 .menubar ul a:hover {
-  background-color: gray;
+  background-color: #84ceeb;
   color: white;
   display: block;
 }
@@ -71,7 +71,7 @@ body {
 .main {
   border-radius: 8px;
   width: 1000px;
-  background-color: #dbdbdb;
+  background-color: #c1c8e4;
   float: left;
   text-align: center;
 }
@@ -96,13 +96,34 @@ body {
   width: 920px;
 }
 
+.photoAndInfo {
+  display: flex;
+  align-items: center;
+}
+
+.photoAndInfo img {
+  content: url("../img/elon.jpg");
+  display: block;
+  width: 420px;
+  border-radius: 12px;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.photoAndInfo span {
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  text-align: left;
+}
+
 .footer {
   margin-top: 10px;
   padding: 1px;
-  background-color: #ffffff;
+  background-color: #8860d0;
   text-align: center;
   border-radius: 8px;
-  color: #dd0909;
+  color: #c1c8e4;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 }
