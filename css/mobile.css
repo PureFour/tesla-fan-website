@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   background: url("../img/tesla_bg.jpg") no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -19,8 +19,8 @@ body {
 .logo {
   height: 100px;
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50%;
+  margin-right: 50%;
   font-size: 50px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -31,19 +31,21 @@ body {
 }
 
 #teslaLogo {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   display: block;
   height: 80px;
   float: left;
 }
 
 .content {
-  width: auto;
+  width: 90%;
+  margin-left: 5%;
   height: auto;
 }
 
 .menubar {
   width: 100%;
+  margin-bottom: 10px;
   background-color: rgb(127, 30, 218);
   float: top;
   border-radius: 8px;
@@ -51,7 +53,7 @@ body {
 }
 
 .menubar ul {
-  font-size: 20px;
+  font-size: 50px;
   list-style-type: none;
   line-height: 250%;
   margin: 0;
