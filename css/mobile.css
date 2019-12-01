@@ -1,21 +1,28 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  background: url("../img/tesla_bg2.jpg") no-repeat; /*do poprawy*/
+  background: url("../img/tesla_bg.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 !important;
 }
 
 .container {
-  width: 1200px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logo {
-  height: 120px;
+  height: 100px;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .logo a {
@@ -25,7 +32,7 @@ body {
 #teslaLogo {
   margin-left: 50px;
   display: block;
-  height: 100px;
+  height: 80px;
   float: left;
 }
 
@@ -35,9 +42,9 @@ body {
 }
 
 .menubar {
-  width: 200px;
-  background-color: rgb(190, 207, 223);
-  float: left;
+  width: 100%;
+  background-color: rgb(127, 30, 218);
+  float: top;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -53,7 +60,7 @@ body {
 .menubar ul a {
   text-decoration: dashed;
   color: black;
-  display: block;
+  display: inline-block;
   padding-left: 5px;
 }
 
@@ -65,10 +72,12 @@ body {
 
 .main {
   border-radius: 8px;
-  width: 1000px;
+  width: auto;
   background-color: #dbdbdb;
   float: left;
-  text-align: center;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .main ul {
@@ -77,20 +86,21 @@ body {
 
 .main ul li {
   padding-top: 20px;
+  padding-right: 40px;
 }
 
 .teslaPhoto {
   display: block;
-  width: 920px;
+  width: 100%;
 }
 
 .footer {
   margin-top: 10px;
   padding: 1px;
-  background-color: #f7cb0b;
+  background-color: #767e85;
   text-align: center;
   border-radius: 8px;
-  color: #dd0909;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  color: rgb(4, 236, 35);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
 }
