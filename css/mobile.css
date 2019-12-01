@@ -90,6 +90,12 @@ body {
 .main ul li {
   padding-top: 20px;
   padding-right: 40px;
+  font-size: larger;
+  color: red;
+}
+
+.main ul p {
+  padding-right: 5%;
 }
 
 .teslaPhoto {

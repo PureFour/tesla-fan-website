@@ -82,6 +82,13 @@ body {
 
 .main ul li {
   padding-top: 20px;
+  font-size: larger;
+  color: red;
+}
+
+.main ul p {
+  text-align: center;
+  padding-right: 5%;
 }
 
 .teslaPhoto {
